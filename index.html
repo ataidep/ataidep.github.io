@@ -10,33 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <style>
-  .site-photo {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  .site-photo-main {
-    min-height: 450px;
-  }
-
-  .site-photo-about {
-    min-height: 420px;
-  }
-
-  @media (max-width: 700px) {
-    .site-photo-main {
-      min-height: 340px;
-    }
-
-    .site-photo-about {
-      min-height: 300px;
-    }
-  }
-</style>
 </head>
 <body>
   <header class="site-header">
@@ -62,8 +35,8 @@
             <a class="button button-outline" href="#contato">Entre em contato</a>
           </div>
         </div>
-        <div class="portrait-frame portrait-main">
-          <img src="images/foto-principal.jpg" alt="Foto principal de Ataide Prestes" class="site-photo site-photo-main">
+        <div class="portrait-frame portrait-main" role="img" aria-label="Espaço reservado para a foto principal de Ataide Prestes">
+          <div class="photo-placeholder"><span class="photo-symbol">＋</span><strong>Foto principal</strong><small>Adicionar imagem em images/foto-principal.jpg</small></div>
         </div>
       </div>
       <div class="hero-glow"></div>
@@ -79,8 +52,8 @@
 
     <section class="section" id="sobre">
       <div class="container about-grid">
-        <div class="about-photo portrait-frame">
-          <img src="images/foto-sobre.jpg" alt="Foto complementar de Ataide Prestes" class="site-photo site-photo-about">
+        <div class="about-photo portrait-frame" role="img" aria-label="Espaço reservado para uma segunda foto de Ataide Prestes">
+          <div class="photo-placeholder"><span class="photo-symbol">＋</span><strong>Foto complementar</strong><small>Adicionar imagem em images/foto-sobre.jpg</small></div>
         </div>
         <div class="about-copy">
           <p class="eyebrow">QUEM SOU</p>
