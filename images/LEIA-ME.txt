@@ -1,0 +1,2 @@
+Pasta reservada às fotografias.
+Use foto-principal.jpg e foto-sobre.jpg.
